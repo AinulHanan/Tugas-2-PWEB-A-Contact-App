@@ -1,0 +1,61 @@
+body {
+    background-color: #3498db; /* Atau warna lain yang Anda sukai */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-size: cover; /* atau gunakan 'contain' untuk memastikan seluruh gambar ditampilkan */
+    background-position: center; /* Memastikan gambar latar belakang terletak di tengah-tengah elemen */
+    background-repeat: no-repeat; /* Mencegah gambar latar belakang diulang */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-control {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
