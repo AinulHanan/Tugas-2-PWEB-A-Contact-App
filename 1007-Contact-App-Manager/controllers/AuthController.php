@@ -3,6 +3,7 @@ include_once 'models/user.php';
 include_once 'function/main.php';
 include_once 'config/static.php';
 
+
 class AuthController {
     static function login() {
         view('auth/auth_layout', ['url' => 'login']);
@@ -58,7 +59,7 @@ class AuthController {
                 $params["secure"], $params["httponly"]
             );
         }
-
+        
         session_destroy();
         header('Location: '.BASEURL. 'login');
     }
